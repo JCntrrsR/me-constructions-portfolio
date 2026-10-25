@@ -1,0 +1,18 @@
+# dependencias
+node_modules/
+
+# build y caché de Astro
+dist/
+dist.bak-*/
+.astro/
+.astro.bak-*/
+
+# temporales y logs
+*.log
+npm-debug.log*
+.DS_Store
+
+# variables de entorno (nunca se versionan)
+.env
+.env.*
+!.env.example
